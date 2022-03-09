@@ -1,0 +1,11 @@
+
+
+<beans xmlnx="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.x3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframeowrk.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="resturantBean" class="org.Lifecycle.spring.Resturant" init-method="init" destory-method="destroy" >
+</bean>
+
+</beans>
